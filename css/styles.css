@@ -30,8 +30,8 @@ a {
 
 img {
   display: block;
-  max-width: 100%, 
-  height: auto
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -134,8 +134,6 @@ img {
 
 .main-page {
   background-color: #2e2f42;
-   padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .main-page-wrapper {
@@ -159,7 +157,6 @@ img {
   margin-bottom: 48px;
 }
 
-/* не совпадают параметры с макетом*/
 .order-btn {
   display: block;
   font-weight: 500;
@@ -172,6 +169,7 @@ img {
   border-radius: 4px;
   padding: 16px 32px;
   border: none;
+  min-width: 169px;
 }
 
 .order-btn:hover,
@@ -203,9 +201,8 @@ img {
   gap: 24px;
 }
 
-/*не совпадают параментры с макетом*/
 .benefits-item {
-  width: calc ((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .benefits-item-title {
@@ -253,13 +250,17 @@ img {
   border-radius: 0 0 4px 4px;
 }
 
+.team-item-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .team-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
   text-align: center;
 }
@@ -271,7 +272,6 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
-  padding-bottom: 32px;
 }
 
 .portfolio {
@@ -299,9 +299,13 @@ img {
 }
 
 .portfolio-item {
+  width: calc ((100% - 48px) / 3);
+}
+
+.portfolio-item-container {
   border: 1px solid #e7e9fc;
-  width: 360px;
-  /*width: calc ((100% - 120px) / 6);*/
+  padding: 32px 16px;
+  border-top: none;
 }
 
 .portfolio-item-title {
@@ -310,9 +314,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
-  padding-left: 16px;
 }
 
 .portfolio-descr {
@@ -321,8 +323,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 32px;
-  padding-left: 16px;
 }
 
 .page-footer {
@@ -331,7 +331,6 @@ img {
   padding-bottom: 100px;
 }
 
-/*не совпадают параментры с макетом*/
 .logo-footer-web {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -340,9 +339,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: block;
-  padding-bottom: 16px;
-  width: 115px;
+  display: inline-block;
+  margin-bottom: 16px;
+  min-width: 115px;
 }
 
 .lofo-footer-studio {
