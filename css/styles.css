@@ -134,14 +134,14 @@ img {
 
 .main-page {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .main-page-wrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .main-page-title {
